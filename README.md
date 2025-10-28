@@ -4,7 +4,6 @@
 This project implements a **Synchronous FIFO (First-In-First-Out)** memory buffer using **Verilog HDL** at the **RTL (Register Transfer Level)**.  
 The FIFO operates in a **single clock domain**, ensuring synchronized read and write operations. It efficiently manages data transfer between producer and consumer processes — crucial in SoC, FPGA, and embedded systems.
 
----
 
 ## 🧩 Project Structure
 
@@ -21,11 +20,6 @@ sync_fifo_project/
 │ └── waveform.png # Screenshot from GTKWave
 │
 └── README.md # Project documentation
-
-markdown
-Copy code
-
----
 
 ## ⚙️ Design Description
 
@@ -50,8 +44,6 @@ Stores data written into the FIFO. Both read and write operations occur simultan
 - Keeps track of the number of elements in the FIFO.
 - Used for debugging and status monitoring.
 
----
-
 ## 🧾 Key Features
 
 ✅ Parameterized FIFO (depth and width can be modified easily)  
@@ -59,8 +51,6 @@ Stores data written into the FIFO. Both read and write operations occur simultan
 ✅ Overflow and underflow protection  
 ✅ Single-clock synchronous design  
 ✅ Fully synthesizable and testbench verified  
-
----
 
 ## 🧮 Parameters Used
 
@@ -71,7 +61,6 @@ Stores data written into the FIFO. Both read and write operations occur simultan
 | `UPP_TH` | Upper threshold (for testing) | 6 |
 | `LOW_TH` | Lower threshold (for testing) | 2 |
 
----
 
 ## 🧰 Tools Used
 
@@ -79,7 +68,6 @@ Stores data written into the FIFO. Both read and write operations occur simultan
 - **Simulator:** Icarus Verilog 12.0  
 - **Waveform Viewer:** GTKWave  
 
----
 
 ## 🚀 How to Run the Simulation
 
@@ -96,8 +84,6 @@ Stores data written into the FIFO. Both read and write operations occur simultan
 After simulation:
 - The waveform (`dump.vcd`) will auto-generate.
 - You can visualize it in **GTKWave** or **EPWave**.
-
----
 
 ## 📈 Waveform Explanation
 
@@ -120,8 +106,6 @@ Below is the waveform generated from the simulation:
 | `wptr`, `rptr` | Write and read pointers | Move cyclically as data is written/read |
 | `count` | Number of elements in FIFO | Increases on write, decreases on read |
 
----
-
 ## 🧠 Interpretation of the Waveform
 
 1. **Reset Phase (Initial cycles)**  
@@ -138,7 +122,6 @@ Below is the waveform generated from the simulation:
 4. **Idle Phase**  
    - No read/write; FIFO retains data.
 
----
 
 ## 🧩 Applications
 
@@ -147,16 +130,12 @@ Below is the waveform generated from the simulation:
 - Buffers in **UARTs and serial communication**
 - **Inter-module communication** in SoCs and FPGAs
 
----
-
 ## 🧾 Expected Outcomes
 
 ✅ Verified **synchronous FIFO module** with correct functionality  
 ✅ **Synthesizable RTL design** meeting timing and logic requirements  
 ✅ **Waveform validation** showing proper data flow and status flag behavior  
 ✅ Ready for **FPGA/SoC integration**
-
----
 
 ## 👩‍💻 Contributors
 
@@ -168,15 +147,11 @@ Below is the waveform generated from the simulation:
 | Vutukuri Poojitha | reddypoojitha356@gmail.com |
 | Yesilanka Veera Sai | yesilankasindhu@gmail.com |
 
----
-
 ## 🕒 Batch Details
 
 **Batch Name:** NXP WIT Batch 3  
 **Submission Date:** 21 September, 2025  
 **Project Title:** RTL Design of Synchronous FIFO Module using Verilog HDL
 
-
-Place your waveform screenshot as simulation/waveform.png.
 
 GitHub will automatically render the headings, bold text, and tables beautifully.
