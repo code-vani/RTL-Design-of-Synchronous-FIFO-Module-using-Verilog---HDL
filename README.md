@@ -5,21 +5,23 @@ This project implements a **Synchronous FIFO (First-In-First-Out)** memory buffe
 The FIFO operates in a **single clock domain**, ensuring synchronized read and write operations. It efficiently manages data transfer between producer and consumer processes — crucial in SoC, FPGA, and embedded systems.
 
 
-## 🧩 Project Structure
+### 🧩 Project Structure
 
+```
 sync_fifo_project/
 │
 ├── src/
-│   └── sync_fifo.v          # FIFO design module
+│   └── sync_fifo.v              # FIFO design module
 │
 ├── testbench/
-│   └── tb_sync_fifo.v       # Testbench for simulation
+│   └── tb_sync_fifo.v           # Testbench for simulation
 │
 ├── simulation/
-│   ├── dump.vcd             # Waveform file (auto-generated after simulation)
-│   └── waveform.png         # Screenshot of simulation waveform (GTKWave)
+│   ├── dump.vcd                 # Waveform file (auto-generated after simulation)
+│   └── waveform.png             # Screenshot of simulation waveform (GTKWave)
 │
-└── README.md                # Project documentation
+└── README.md                    # Project documentation
+```
 
 ## ⚙️ Design Description
 
