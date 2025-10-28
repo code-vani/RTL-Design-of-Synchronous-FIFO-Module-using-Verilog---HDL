@@ -91,7 +91,8 @@ After simulation:
 
 Below is the waveform generated from the simulation:
 
-🖼 **(Include your screenshot as `waveform.png`)**
+🖼 <img width="1299" height="285" alt="image" src="https://github.com/user-attachments/assets/67a98dc1-c5e8-40ef-a5e2-760cc1ef98d6" />
+
 
 ### 🕒 Explanation of Key Signals
 
