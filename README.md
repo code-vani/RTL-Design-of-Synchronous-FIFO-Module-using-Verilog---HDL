@@ -153,8 +153,5 @@ Below is the waveform generated from the simulation:
 ## 🕒 Batch Details
 
 **Batch Name:** NXP WIT Batch 3  
-**Submission Date:** 21 September, 2025  
+**Submission Date:** 28 October, 2025  
 **Project Title:** RTL Design of Synchronous FIFO Module using Verilog HDL
-
-
-GitHub will automatically render the headings, bold text, and tables beautifully.
