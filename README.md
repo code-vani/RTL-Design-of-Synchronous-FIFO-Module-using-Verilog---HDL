@@ -10,16 +10,16 @@ The FIFO operates in a **single clock domain**, ensuring synchronized read and w
 sync_fifo_project/
 │
 ├── src/
-│ └── sync_fifo.v # FIFO design module
+│   └── sync_fifo.v          # FIFO design module
 │
 ├── testbench/
-│ └── tb_sync_fifo.v # Testbench for simulation
+│   └── tb_sync_fifo.v       # Testbench for simulation
 │
 ├── simulation/
-│ ├── dump.vcd # Waveform file (auto-generated after simulation)
-│ └── waveform.png # Screenshot from GTKWave
+│   ├── dump.vcd             # Waveform file (auto-generated after simulation)
+│   └── waveform.png         # Screenshot of simulation waveform (GTKWave)
 │
-└── README.md # Project documentation
+└── README.md                # Project documentation
 
 ## ⚙️ Design Description
 
