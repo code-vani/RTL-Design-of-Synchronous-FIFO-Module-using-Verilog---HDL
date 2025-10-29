@@ -2,7 +2,7 @@
 // ==========================================================
 // Synchronous FIFO Design
 // ==========================================================
-// Author: Vanshika Garg, Vangara Sravanthi, Vidushi Bahuguna, Vutukuri Poojitha, Yesilanka Veera Sai
+// Author: Vanshika Garg, Vangara Sravanthi, Vidushi Bahuguna, Vutukuri Poojitha, Yesilanka Veera Sai Sindhu
 // Tool: Icarus Verilog + GTKWave
 // Description: Implements a simple synchronous FIFO with
 // write/read pointers, full and empty status flags.
