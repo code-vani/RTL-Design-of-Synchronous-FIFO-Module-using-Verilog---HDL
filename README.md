@@ -102,7 +102,7 @@ The project successfully demonstrates a **fully functional synchronous FIFO** at
 | Name | Email |
 |------|--------|
 | Vanshika Garg | vanshikagarg.20744@gmail.com |
-| Vangara Sravanthi | o210018@rguktong.ac.in |
+| Vangara Sravanthi | sravanthivangara8@gmail.com |
 | Vidushi Bahuguna | to.vidushibahuguna@gmail.com |
 | Vutukuri Poojitha | reddypoojitha356@gmail.com |
 | Yesilanka Veera Sai Sindhu | yesilankasindhu@gmail.com |
