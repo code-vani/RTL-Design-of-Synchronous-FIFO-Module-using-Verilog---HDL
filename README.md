@@ -16,7 +16,15 @@ The **Synchronous FIFO** stores data sequentially and outputs it in the same ord
 5. **Count Logic** – Tracks elements currently stored in FIFO.
 
 ---
+## FIFO Architecture
 
+The synchronous FIFO is implemented using:
+- Circular buffer memory
+- Separate read and write pointers
+- Full and empty detection logic
+- Synchronous clock operation
+
+![FIFO Architecture](fifo_architecture.png)
 ## 🧾 Project Features  
 ✅ Parameterized depth & width  
 ✅ Overflow/underflow protection  
